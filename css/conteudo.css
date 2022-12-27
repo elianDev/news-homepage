@@ -9,6 +9,10 @@
   margin-bottom: 32px;
 }
 
+.conteudo-imagem-mobile {
+  display: none;
+}
+
 .conteudo-texto {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -72,6 +76,12 @@
   .conteudo {
     grid-template-columns: 1fr;
     padding: 0 20px;
+  }
+  .conteudo-imagem-mobile {
+    display: block;
+  }
+  .conteudo-imagem-desktop {
+    display: none;
   }
   .conteudo-texto {
     grid-template-columns: 1fr;
