@@ -1,0 +1,39 @@
+.paginas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.paginas-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2px 10px;
+}
+
+.paginas-item-imagem {
+  grid-row: 1/4;
+}
+
+.paginas-item-imagem img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.paginas-item h3 {
+  font-size: 1.5rem;
+}
+
+.paginas-item a {
+  font-weight: 800;
+}
+
+.paginas-item a:hover {
+  color: var(--cor-p1-r);
+}
+
+@media (max-width: 700px) {
+  .paginas {
+    grid-template-columns: 1fr;
+  }
+}

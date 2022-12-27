@@ -1,0 +1,32 @@
+:root {
+  --cor-p1-o: hsl(35, 77%, 62%);
+  --cor-p1-r: hsl(5, 85%, 63%);
+  --cor-0: hsl(36, 100%, 99%);
+  --cor-1: hsl(233, 8%, 79%);
+  --cor-2: hsl(236, 13%, 42%);
+  --cor-3: hsl(240, 100%, 5%);
+}
+
+.cor-p1-o {
+  color: var(--cor-p1-o);
+}
+
+.cor-p1-r {
+  color: var(--cor-p1-r);
+}
+
+.cor-0 {
+  color: var(--cor-0);
+}
+
+.cor-1 {
+  color: var(--cor-1);
+}
+
+.cor-2 {
+  color: var(--cor-2);
+}
+
+.cor-3 {
+  color: var(--cor-3);
+}
