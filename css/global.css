@@ -32,11 +32,6 @@ a {
   color: inherit;
 }
 
-a:visited {
-  color: none;
-  border: none;
-}
-
 ul {
   list-style: none;
 }
